@@ -57,18 +57,18 @@ pip install httpx[all]
 
 | Feature | Requests | HTTPX |
 |---------|----------|-------|
-| **Async Support** | ❌ No | ✅ Yes (native) |
-| **HTTP/2 Support** | ❌ No | ✅ Yes |
-| **HTTP/3 Support** | ❌ No | ⚠️ Experimental |
-| **Synchronous** | ✅ Yes | ✅ Yes |
-| **Type Hints** | ⚠️ Partial | ✅ Full |
-| **Request/Response Streaming** | ✅ Yes | ✅ Yes |
-| **Cookie Jar Management** | ✅ Yes | ✅ Yes |
-| **Auth Handling** | ✅ Basic, Digest, OAuth2 | ✅ Basic, Digest, Bearer |
-| **Timeout Support** | ✅ Simple | ✅ Advanced (per-operation) |
+| **Async Support** |  No | Yes (native) |
+| **HTTP/2 Support** | No | Yes |
+| **HTTP/3 Support** | No | Experimental |
+| **Synchronous** | Yes | Yes |
+| **Type Hints** | Partial | Full |
+| **Request/Response Streaming** | Yes | Yes |
+| **Cookie Jar Management** | Yes | Yes |
+| **Auth Handling** | Basic, Digest, OAuth2 | Basic, Digest, Bearer |
+| **Timeout Support** | Simple | Advanced (per-operation) |
 | **Dependency Size** | Minimal | Slightly larger |
 | **Learning Curve** | Very gentle | Gentle |
-| **Active Development** | ✅ Maintenance mode | ✅ Active |
+| **Active Development** | Maintenance mode | Active |
 
 ---
 
